@@ -36,25 +36,28 @@
         <table id="petsTable" class="table table-striped mt-4">
             <thead>
                 <tr>
-                    <th>Name</th>
+                    <th>Id</th>
+			  <th>Name</th>
                     <th>Age</th>
                     <th>Gender</th>
-                    <th>Type</th>
+                    <th>Type_name</th>
                 </tr>
             </thead>
             <tbody>
                 {% for pet in pets %}
                 <tr>
-                    <td>{{ puppy }}</td>
-                    <td>{{ 5 }}</td>
-                    <td>{{ female }}</td>
-                    <td>{{ Laborador }}</td>
+			  <td> 101 </td>
+                    <td> puppy </td>
+                    <td> 5 </td>
+                    <td> female </td>
+                    <td> Laborador </td>
                 </tr>
                 <tr>
-                    <td>{{ beagle }}</td>
-                    <td>{{ 11 }}</td>
-                    <td>{{ male }}</td>
-                    <td>{{ Golden Retreiver }}</td>
+			  <td> 102 </td>
+                    <td> beagle </td>
+                    <td> 11 </td>
+                    <td> male </td>
+                    <td> Golden Retreiver </td>
                 </tr>
                 {% endfor %}
             </tbody>
